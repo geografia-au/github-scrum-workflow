@@ -62,15 +62,12 @@ Add the following labels to your repository:
 
 You can define and assign custom labels that you need within your workflow or organization.
 
-## 3. Define sprints as milestones
+## 3. Define sprints as projects
 
-You can create a milestone for every sprint and add items (issues) from the backlog to a milestone.
+You can create a [project](https://help.github.com/articles/tracking-the-progress-of-your-work-with-project-boards/) for every sprint and add items.
 
-This allows you to group items in sprints and track them by milestone in your [issue dashboard](https://github.com/issues).
+This allows you to group items in sprints and track them by project in your [issue dashboard](https://github.com/issues). Create project for each release.
 
-The backlog then consists of all items (issues) that have no `milestone` attached to it.
-
-**TIP**: Use `no:milestone` in the search field on your [issue dashboard](https://github.com/issues) to find backlog items.
 
 ## Overview
 
