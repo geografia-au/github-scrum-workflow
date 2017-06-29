@@ -8,6 +8,13 @@ Turn any GitHub repository into a simple but powerful agile work environment.
 
 ## How it works
 
+add your API token and run the script.
+```
+cp config/credentials.example.yml config/credentials.yml
+echo "access_token: my-github-api-token" > config/credentials.yml
+ruby prepare-repository.rb '<username>/<repo>'
+```
+
 - items are reported as **issues**
 - points and meta data are assigned to items as **labels**
 - **milestones** are used to group issues in sprints
@@ -86,3 +93,4 @@ Image: [Scrum primer](http://www.scrumprimer.org/overview).
 ### v1.0.0
 
 - Added documentation for issues, labels and milestones.
+

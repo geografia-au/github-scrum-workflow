@@ -1,0 +1,30 @@
+priorities:
+  color: '#ff794f'
+  labels:
+    - 'priority: lowest'
+    - 'priority: low'
+    - 'priority: medium'
+    - 'priority: high'
+    - 'priority: highest'
+
+points:
+  color: '#8888ff'
+  labels:
+    - 'point: 1'
+    - 'point: 2'
+    - 'point: 3'
+    - 'point: 5'
+    - 'point: 8'
+    - 'point: 13'
+    - 'point: 21'
+
+types:
+  color: '#c7e3ff'
+  labels:
+    - type:bug
+    - type:chore
+    - type:feature
+    - type:infrastructure
+    - type:performance
+    - type:refactor
+    - type:test
