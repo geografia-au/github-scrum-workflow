@@ -28,3 +28,12 @@ types:
     - type:performance
     - type:refactor
     - type:test
+
+status:
+  color: '#ebefe6'
+  labels:
+    - 'status: backlog'
+    - 'status: ready'
+    - 'status: in-progress'
+    - 'status: in-review'
+    - 'status: done'
