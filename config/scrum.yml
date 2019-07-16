@@ -28,6 +28,7 @@ types:
     - type:performance
     - type:refactor
     - type:test
+    - type:data
 
 status:
   color: '#ebefe6'
